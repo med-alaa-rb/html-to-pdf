@@ -9,8 +9,8 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class AppComponent {
   title = 'Angular7-AddImageInPDF';
-  fileName: string;
-  filePreview: string
+  fileName: any;
+  filePreview: any;
 
   constructor(private sanitizer: DomSanitizer) { }
 
